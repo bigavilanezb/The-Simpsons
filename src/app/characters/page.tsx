@@ -1,3 +1,5 @@
+import { CharactersCard } from "../components/characters-card";
+
 export const metadata = {
   title: "Sobre Nosotros",
 };
@@ -5,10 +7,8 @@ export const metadata = {
 export default function About() {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-4">Sobre Nosotros</h1>
-      <p className="text-lg">
-        Somos un equipo dedicado a crear experiencias web increíbles.
-      </p>
+      <h1 className="text-4xl font-bold mb-4">Galeria de personajes</h1>
+      <CharactersCard/>
     </div>
   );
 }

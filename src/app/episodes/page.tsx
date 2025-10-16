@@ -1,8 +1,8 @@
-"use client"; // Necesario si usas hooks o interactividad
+"use client";
+import { useState } from 'react';
+ // Necesario si usas hooks o interactividad
 
-import { useState } from "react";
-
-export default function Contact() {
+export default function Episodes() {
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
